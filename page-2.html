@@ -5,29 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/neuro-ionz/assets/styles-guStct1H.css">
+    <link rel="stylesheet" crossorigin href="/neuro-ionz/assets/styles-CwbNjdvZ.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
+  <div class="container header__container">
+      <a href="/" class="logo">
+          <span class="logo__icon"></span>
+          <span class="logo__text">Neuro-Ionz</span>
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="nav">
+          <ul class="nav__list">
+              <li><a href="#hero" class="nav__link">Главная</a></li>
+              <li><a href="#about" class="nav__link">О платформе</a></li>
+              <li><a href="#benefits" class="nav__link">Преимущества</a></li>
+              <li><a href="#innovations" class="nav__link">Инновации</a></li>
+              <li><a href="#blog" class="nav__link">Практикум</a></li>
+          </ul>
+      </nav>
+      <a href="#contact" class="btn btn--primary header__btn">Начать сейчас</a>
+      <button class="burger" aria-label="Menu">
+          <span></span>
+      </button>
   </div>
 </header>
-
 
     <main>
       <div class="container">
@@ -38,20 +39,58 @@
     </main>
 
     <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+  <div class="container footer__grid">
+      <div class="footer__brand">
+          <a href="/" class="logo">
+              <span class="logo__icon"></span>
+              <span class="logo__text">Neuro-Ionz</span>
+          </a>
+          <p class="footer__tagline">Технологии, которые работают на вас. Платформа года для внедрения ИИ в повседневную жизнь.</p>
+      </div>
+
+      <div class="footer__nav">
+          <h4 class="footer__title">Навигация</h4>
+          <ul class="footer__list">
+              <li><a href="#hero">Главная</a></li>
+              <li><a href="#about">О платформе</a></li>
+              <li><a href="#benefits">Преимущества</a></li>
+              <li><a href="#contact">Контакты</a></li>
+          </ul>
+      </div>
+
+      <div class="footer__legal">
+          <h4 class="footer__title">Документы</h4>
+          <ul class="footer__list">
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="cookies.html">Cookie Policy</a></li>
+              <li><a href="terms.html">Terms of Use</a></li>
+              <li><a href="return.html">Return Policy</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+              <li><a href="contact.html">Contact Info</a></li>
+          </ul>
+      </div>
+
+      <div class="footer__contacts">
+          <h4 class="footer__title">Связь в Германии</h4>
+          <ul class="footer__list">
+              <li class="contact-item">
+                  <i data-lucide="phone" class="contact-item__icon"></i>
+                  <a href="tel:+493075414517">+49 30 75414517</a>
+              </li>
+              <li class="contact-item">
+                  <i data-lucide="mail" class="contact-item__icon"></i>
+                  <a href="mailto:hello@neuro-ionz.life">hello@neuro-ionz.life</a>
+              </li>
+              <li class="contact-item">
+                  <i data-lucide="map-pin" class="contact-item__icon"></i>
+                  <span>Kantstraße 114, 10627 Berlin, Germany</span>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="footer__bottom container">
+      <p>&copy; 2026 Neuro-Ionz. Предложение активно только в странах ЕС.</p>
   </div>
 </footer>
-
   </body>
 </html>
